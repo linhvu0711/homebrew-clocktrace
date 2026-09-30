@@ -1,18 +1,10 @@
-# Linhvu0711 Clocktrace
+# Homebrew tap for Clocktrace
 
-## How do I install these formulae?
-
-`brew install linhvu0711/clocktrace/<formula>`
-
-Or `brew tap linhvu0711/clocktrace` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "linhvu0711/clocktrace"
-brew "<formula>"
+```sh
+brew install linhvu0711/clocktrace/clocktrace
+clocktrace setup
 ```
 
-## Documentation
+Clocktrace records where your time goes on your Mac, and on your iPhone and iPad, and you ask your AI app about it. See [linhvu0711/clocktrace](https://github.com/linhvu0711/clocktrace).
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+`scripts/release.sh` in that repo updates `Formula/clocktrace.rb` on each release. Do not edit its `url` and `sha256` by hand.
