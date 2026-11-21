@@ -1,8 +1,8 @@
 class Clocktrace < Formula
   desc "Time tracker for your Mac and iPhone that you ask through your AI app"
   homepage "https://github.com/linhvu0711/clocktrace"
-  url "https://github.com/linhvu0711/clocktrace/releases/download/v0.1.2/clocktrace-0.1.2-darwin-arm64.tar.gz"
-  sha256 "84960b836ed2e71b2aa617a76b795b62dadc3f8761659694945990605741e36e"
+  url "https://github.com/linhvu0711/clocktrace/releases/download/v0.1.3/clocktrace-0.1.3-darwin-arm64.tar.gz"
+  sha256 "511ae63b4ae4f80b4295cc43c7bd54045e8e635bacb33f03ff117da34cd458b6"
   license "MIT"
 
   depends_on arch: :arm64
